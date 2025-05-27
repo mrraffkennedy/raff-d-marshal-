@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- google font icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- local css file -->
+    <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+    
+
+
+    <section class="home" id="home">
+        <h1 class="hero-text">
+          hello, i'm <br />
+          <span>Mochammad Rafi</span>
+        </h1>
+        <p>this is my resume</p>
+    </section>
+
+
+    <header class="header">
+        <a><i class="menu material-icons"> menu </i></a>
+        <nav class="navbar">
+          <a href="#">home</a>
+          <a href="#portfolio">portfolio</a>
+         <a href="#about">about</a>
+          <a href="#contact">contact</a>
+        </nav>
+    </header>
+
+    <section class="portfolio" id="portfolio">
+  <h1 class="heading">featured <span>portfolio</span></h1>
+  
+  
+  
+  <!-- about section start -->
+
+    <section class="about" id="about">
+
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img src="assets/raff-pict.jpg" alt="" />
+            </div>
+          </div>
+          <div class="box">
+            <h1 class="heading">about <span>me</span></h1>
+            <p>
+              Hallo guys, aku anak TKJ, ngulik mikrotik sampe paham dalemannya. Coding? Gaskeun!. Di luar kelas, aku sering ngangkat beban di rumah or gym biar badan nggak cuma jago ngetik, tapi juga kuat ngangkat monitor gede, wkwk. Hidupku seimbang, antara jadi tech geek sama fitness freak. Buat aku, otak cerdas harus diimbangi sama badan sehat, biar nggak cuma jago depan layar tapi juga siap action di dunia nyata. Pokoknya, hidup gw itu work hard, lift harder!😉
+            </p>
+            <a href="assets/cv-moch-raffi.pdf" class="btn">download cv</a>
+          </div>
+        </div>
+</section>
+<!-- about section ends -->
+
+  <div class="box-container">
+    <div class="box">
+      <div class="image">  <!-- Gunakan class "image" atau "assets", pilih salah satu -->
+        <img src="assets/project.jpg" alt="Project 1">
+        <div class="content">  <!-- Kotak content akan muncul di sini -->
+          <h2>project</h2>
+          <p>Membuat form Login</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <!-- portfolio section ends -->
+
+
+<!-- services section starts -->
+<section class="services" id="services">
+  <h1 class="heading">my <span>services</span></h1>
+  
+  <div class="box-container">
+    <!-- Service 1 -->
+    <div class="box">
+      <i class="icon material-icons">grid_view</i>
+      <h2>Photo Enhancement</h2>
+      <p>As a Photo Enhancement Specialist, I don't just edit images — I revive moments.</p>
+      <a href="photo-dashboard.html" class="btn-2">
+        learn more <i class="material-icons">navigate_next</i>
+      </a>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="box">
+      <i class="icon material-icons">smart_display</i>
+      <h2>Graphic Design</h2>
+      <p>I’m a Graphic Designer with a passion for turning ideas into impactful visuals</p>
+      <a href="design-dashboard.html" class="btn-2">
+        learn more <i class="material-icons">navigate_next</i>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- contact section starts -->
+<section class="contact" id="contact">
+  <h1 class="heading">get <span>in touch</span></h1>
+  <div class="col-container">
+    <form id="contactForm" class="col">
+      <h2>get in touch</h2>
+      <input type="text" name="name" placeholder="your name" required>
+      <input type="email" name="email" placeholder="your email" required>
+      <input type="tel" name="phone" placeholder="your phone">
+      <textarea name="message" placeholder="write a message" cols="30" rows="10" required></textarea>
+      <button type="submit" class="btn">send message</button>
+    </form>
+  </div>
+</section>
+      
+  <!-- contact section ends -->
+
+
+
+
+
+  <!-- footer section starts -->
+<section class="footer" id="footer">
+  <div class="socials">
+    
+    
+    <!-- Twitter/X -->
+    <a href="https://twitter.com/MochRafi27" target="_blank" rel="noopener">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </a>
+    
+    <!-- WhatsApp -->
+    <a href="https://wa.me/6287761424665" target="_blank" rel="noopener">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    <!-- Facebook -->
+      <a href="https://www.facebook.com/share/16Ldfw6z22/" target="_blank" rel="noopener"> <ion-icon name="logo-facebook"></ion-icon>
+      
+      <!-- Instagram -->
+<a href="https://www.instagram.com/papa.offside_?igsh=MWhjOHV5amxraWg2dQ==" target="_blank" rel="noopener"> <ion-icon name="logo-instagram"></ion-icon>
+
+    </a>
+  </div>
+  <p>&copy; Mochammad Rafi 2025. All rights reserved.</p>
+</section>
+<!-- footer section ends -->
+
+
+
+
+<!-- ion icons import -->
+<script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+</script>
+    <script src="JS/script.js"></script>
+
+<script>
+  emailjs.init('utK6I8zQg3eym1UyD'); // Ganti dengan Public Key dari EmailJS
+</script>
+
+    
+
+  </body>
+</html>

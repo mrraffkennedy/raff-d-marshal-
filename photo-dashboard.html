@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- WAJIB: Load CSS & Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!-- Pastikan path benar -->
+</head>
+<body>
+  <div class="dashboard-header">
+    <h1><i class="material-icons">photo_library</i> Photo Enhancement</h1>
+    <a href="services.html" class="back-btn">
+      <i class="material-icons">arrow_back</i> Back to Services
+    </a>
+  </div>
+
+  <div class="filter-controls">
+    <input type="text" placeholder="Search photos..." class="search-box">
+   <select class="category-filter">
+  <option value="all">All Categories</option>
+  <option value="nature">Persiapan Bantara</option>
+  <option value="portrait">Musyawarah Ambalan</option>
+  <option value="event">Single Potrait</option>
+</select>
+  </div>
+
+  <div class="photo-grid">
+    <div class="photo-card" data-category="nature">
+      <img src="assets/fotbar.jpg" alt="Scout Moment">
+      <div class="photo-info">
+        <h3>Persiapan Bantara</h3>
+        <p>Rabu-21-Mei-2025</p>
+        <button class="download-btn">
+          <i class="material-icons">download</i>
+        </button>
+      </div>
+    </div>
+     <!-- Foto 2 -->
+  <div class="photo-card" data-category="nature">
+    <img src="assets/foto2.jpg" alt="Scout Moment 2">
+    <div class="photo-info">
+      <h3>Musyawarah Ambalan</h3>
+      <p>Senin-12-Mei-2025</p>
+      <button class="download-btn">
+        <i class="material-icons">download</i>
+      </button>
+    </div>
+  </div>
+ <!-- Foto  -->
+ <div class="photo-card" data-category="nature">
+   <img src="assets/reuni-perdana.jpg" alt="Scout Moment 2">
+   <div class="photo-info">
+     <h3>REUNI PERDANA</h3>
+     <p>Senin-15-April-2024</p>
+     <button class="download-btn">
+       <i class="material-icons">download</i>
+     </button>
+   </div>
+ </div>
+  </div>
+</body>
+</html>
